@@ -2,8 +2,8 @@
 ## Why JMH?
 - JMH stands for **Java Microbenchmarking Harness**
 - It enables benchmarking and profiling of Java or other languages targeting JVM
-- It offers the necessary tools and technicques for precisely measuring the performance of small code sinppets and methods (A.K.A microbenchmarking)
-- It provides a rich set of features and options to customize and control the benchmarking process, for example, benchmarking modes, states, benchmarking multithreaded code, profiling, etc.   
+- Using the various tools and technicques offered by JMH, you can very precisely measure the performance of methods and small code snippets
+- Using the rich set of features and options, you can very easily customize and control the benchmarking process.
 ## Annotations
 ## Benchmark Modes
 ## States
