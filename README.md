@@ -1,2 +1,8 @@
 # JMH-Refresher
-Notes and sample code on JMH
+## Why JMH?
+## Annotations
+## Benchmark Modes
+## States
+## Black holes
+## TODO
+
