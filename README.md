@@ -2,8 +2,8 @@
 ## Why JMH?
 - JMH stands for **Java Microbenchmarking Harness**
 - It enables benchmarking and profiling of Java or other languages targeting JVM
-- It is specifically designed for microbenchmarking - precise measurement of the performance of methods and small code snippets
-- It allows customization of benchmarking process using features like Benchmark modes, states, blackhole...etc.
+- It is specifically designed for micro benchmarking - precise measurement of the performance of methods and small code snippets
+- It allows customization of the benchmarking process using features like Benchmark modes, states, blackhole...etc.
 
 ## Setup
 #Gradle
@@ -18,7 +18,7 @@
     - It is typically placed on a method or a class
     - The below happens after you add the annotation
         - JMH generates the bootstrapping code during compilation which is used while benchmarking
-        - The method is added to the benchmarking list
+        - The method(s) are added to the benchmarking list
         - The environment is prepared for the benchmarking to run
     - The below constraints apply 
         - The method should be public
